@@ -29,7 +29,7 @@
 
 ### 与 claude-to-im 的关系
 
-cc-cr **不依赖** [claude-to-im](https://github.com/anthropics/claude-code) skill，两者相互独立。
+cc-cr **不依赖** [claude-to-im](https://github.com/op7418/Claude-to-IM) skill，两者相互独立。
 
 但如果你同时安装了 claude-to-im，飞书凭证（App ID / App Secret）可以自动复用，无需在 cc-cr 中重复填写——cc-cr 会按以下优先级读取：
 
