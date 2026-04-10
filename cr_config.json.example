@@ -1,0 +1,24 @@
+{
+  "gitlab_base_url": "https://gitlab.example.com",
+  "gitlab_token": "",
+  "local_base_path": "/path/to/your/local/repos",
+  "release_branch": "release",
+  "notify_no_change": false,
+  "feishu_app_id": "",
+  "feishu_app_secret": "",
+  "feishu_domain": "https://open.feishu.cn",
+  "feishu_recipients": [
+    "ou_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "oc_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  ],
+  "projects": [
+    {
+      "gitlab_project_path": "group/project-name",
+      "mode": "mr"
+    },
+    {
+      "gitlab_project_path": "group/another-project",
+      "mode": "tag"
+    }
+  ]
+}
