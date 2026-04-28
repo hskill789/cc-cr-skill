@@ -36,7 +36,7 @@ allowed-tools: [Bash, Read, Write, Edit, Grep, AskUserQuestion]
 
 > 用 `AskUserQuestion` 逐步收集配置，最终写入 `SCRIPT_DIR/cr_config.json`，全程在 Claude Code session 内完成，无需终端交互。
 
-`SCRIPT_DIR` = `/Users/yaohaiqing/.claude/skills/cc-cr`
+`SCRIPT_DIR` = `~/.claude/skills/cc-cr`
 
 ### 前置检查
 
@@ -255,7 +255,7 @@ bash "${SCRIPT_DIR}/cr_monitor.sh" --feishu-target group 2>&1
 ### Step 2：调用 cr_run.sh
 
 ```bash
-SCRIPT_DIR="/Users/yaohaiqing/.claude/skills/cc-cr"
+SCRIPT_DIR="$HOME/.claude/skills/cc-cr"
 
 # MR 模式（--no-feishu：交互式模式下报告直接输出到 session）
 bash "${SCRIPT_DIR}/cr_run.sh" \
