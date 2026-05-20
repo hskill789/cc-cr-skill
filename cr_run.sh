@@ -3,13 +3,13 @@
 #
 # 用法（MR 模式）：
 #   cr_run.sh --mode mr \
-#             --project-path tmc/isavana/hisavana-traffic-dispatch \
+#             --project-path xxx/xxx/p_01 \
 #             --iid 96 \
 #             [--release-branch release]
 #
 # 用法（Tag 模式）：
 #   cr_run.sh --mode tag \
-#             --project-path tmc/strategy/ad-server/eagllwin-adserver \
+#             --project-path xxx/xxx/p_02 \
 #             --old-tag v1.0.0 \
 #             --new-tag v1.1.0 \
 #             [--tag-created-at "2026-04-09 18:00:00"]
